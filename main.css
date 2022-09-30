@@ -39,7 +39,6 @@ header {
 
 section {
     padding: 100px 200px;
-
 }
 
 .main {
@@ -207,4 +206,92 @@ section {
 }
 .footer .social-icons a {
     font-size: 20px;
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 15px 30px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    section {
+        padding: 4px 15px;
+    }
+    .main h2 {
+        color: white;
+        font-size: 19px;
+    }
+    .main h2 span {
+        display: inline-block;
+        color: black;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:415px) {
+    header {
+        padding: 15px 30px;
+    }
+    .navigation a {
+        font-size: 16px;
+    }
+    section {
+        padding: 4px 15px;
+    }
+    .main h2 {
+        color: white;
+        font-size: 19px;
+    }
+    .main h2 span {
+        display: inline-block;
+        color: black;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:405px) {
+    header {
+        padding: 15px 30px;
+    }
+    .navigation a {
+        font-size: 13px;
+    }
+    section {
+        padding: 4px 15px;
+    }
+    .main h2 {
+        color: white;
+        font-size: 19px;
+    }
+    .main h2 span {
+        display: inline-block;
+        color: black;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:360px) {
+    header {
+        padding: 15px 30px;
+    }
+    .navigation a {
+        font-size: 12px;
+    }
+    section {
+        padding: 4px 15px;
+    }
+    .main h2 {
+        color: white;
+        font-size: 19px;
+    }
+    .main h2 span {
+        display: inline-block;
+        color: black;
+        font-size: 35px;
+        margin-top: 15px;
+    }
 }
