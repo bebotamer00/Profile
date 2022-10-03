@@ -228,6 +228,9 @@ section {
         font-size: 35px;
         margin-top: 15px;
     }
+    .footer p {
+        font-size: 20px;
+    } 
 }
 
 @media (max-width:415px) {
@@ -250,6 +253,9 @@ section {
         font-size: 35px;
         margin-top: 15px;
     }
+    .footer p {
+        font-size: 12px;
+    } 
 }
 
 @media (max-width:405px) {
@@ -272,6 +278,9 @@ section {
         font-size: 35px;
         margin-top: 15px;
     }
+    .footer p {
+        font-size: 10px;
+    } 
 }
 
 @media (max-width:360px) {
@@ -294,4 +303,7 @@ section {
         font-size: 35px;
         margin-top: 15px;
     }
+    .footer p {
+        font-size: 10px;
+    } 
 }
